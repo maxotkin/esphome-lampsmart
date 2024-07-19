@@ -232,7 +232,7 @@ size_t LampSmartProCommand::build_packet_v3(uint8_t* buf) {
 
   adv_data_v3_t *packet = (adv_data_v3_t*)buf;
   *packet = (adv_data_v3_t) {{
-      .prefix = {0x02, 0x01, 0x02, 0x1B, 0x16, 0xF0, 0x08, 0x10, 0x80, 0x00},
+      .prefix = {0x02, 0x01, 0x01, 0x1B, 0x03, 0xF0, 0x08, 0x30, 0x80, 0xB8},
       .packet_number = this->tx_count_,
       .type = DEVICE_TYPE_LAMP,
       .group_id = this->identifier_,
