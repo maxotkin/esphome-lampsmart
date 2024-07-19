@@ -1,6 +1,6 @@
 external_components:
   # shorthand
-  source: github://flicker581/esphome-lampsmart
+  source: github://maxotkin/esphome-lampsmart
 
 lampsmart_pro_light:
 
